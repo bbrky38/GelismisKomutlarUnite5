@@ -78,4 +78,8 @@ public class MainActivity extends AppCompatActivity {
         Intent uyg = new Intent(MainActivity.this, Uyg13Activity.class);
         startActivity(uyg);
     }
+    public void topla1(View view) {
+        Intent uyg = new Intent(MainActivity.this, SS_165_Activity.class);
+        startActivity(uyg);
+    }
 }
