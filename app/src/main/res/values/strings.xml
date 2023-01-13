@@ -13,5 +13,8 @@
     <string name="uyg11_isim">Uygulama 11</string>
     <string name="uyg12_isim">Uygulama 12</string>
     <string name="uyg13_isim">Uygulama 13</string>
+    <string name="ss165_isim">165 Etkinlik</string>
+    <string name="ss173_isim">173 Etkinlik</string>
     <string name="geri">Geri</string>
+
 </resources>
