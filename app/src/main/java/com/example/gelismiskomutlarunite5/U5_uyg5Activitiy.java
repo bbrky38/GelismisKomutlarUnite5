@@ -1,25 +1,9 @@
 package com.example.gelismiskomutlarunite5;
 
 import android.os.Bundle;
-import android.view.Vie
-222222222222222          56import android.widget.Button;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<
+import android.view.View;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -51,4 +35,4 @@ public class U5_uyg5Activitiy extends AppCompatActivity {
 
         }
     }
-}
+

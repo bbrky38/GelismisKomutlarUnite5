@@ -6,6 +6,7 @@ public class U5ElektirikliCihaz {
     public int gunlukSaatKullanim;
     public int aylikTuketim() {
         int aylikKullanim;
-        aylikKullanim = cihazKW*gunlukSaatKullanim*30;
+        aylikKullanim = cihazKW * gunlukSaatKullanim * 30;
         return aylikKullanim;
+    }
 }

@@ -6,15 +6,38 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/buttonAsker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="btnBack"
-        android:text="@string/geri"
+        android:text="Asker Ateş"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.258"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintVertical_bias="0.399" />
+
+    <Button
+        android:id="@+id/buttonTankci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tankcı Ateş"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <TextView
+        android:id="@+id/textViewMesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesaj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
 </androidx.constraintlayout.widget.ConstraintLayout>
